@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #f6f6fe;
+    background-color: #FAFFCE    ;
 }
 a {
     text-decoration: underline;
@@ -16,18 +16,18 @@ a:hover {
 .contenedor {
     max-width: 1000px;
     width: 90%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .card {
-    background-color: #f6f6fe;
+    background-color: #FFFFFF ;
     border-radius: 15px;
     padding: 20px;
     display: flex;
     align-items: center;
     position: relative;
     margin-bottom: 50px;
-    border: sienna solid;
+
 }
 
 .card__miniatura {
