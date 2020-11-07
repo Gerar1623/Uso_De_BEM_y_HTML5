@@ -18,3 +18,97 @@ a:hover {
     width: 90%;
     margin: 0 auto;
 }
+
+.card {
+    background-color: #f6f6fe;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+    border: sienna solid;
+}
+
+.card__miniatura {
+    width: 650px;
+    height: 200px;
+    background: black;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.card__img {
+    width: 100%;
+    height: 100%;
+}
+
+.card__titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.card__enlace-titulo {
+    color: black;
+    text-decoration: none;
+}
+.card__parrafo-principal {
+    line-height: 28px;
+    color: #6d6d6d;
+    margin-bottom: 20px;
+}
+.boton {
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 30px;
+    background: black;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #403cc2;
+    transition: .3s ease all;
+}
+
+.boton__texto {
+    font-weight: 600;
+}
+
+.boton:hover {
+    background: #1b1881;
+    text-decoration: none;
+}
+
+.boton--absolute {
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+}
+
+.boton--verde {
+    background-color: #7ba771;
+
+}
+.boton--verde:hover {
+    background-color: #437837;
+    
+}
+
+.frase {
+    text-align: center;
+    margin: 70px 0;
+}
+.frase__texto {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
